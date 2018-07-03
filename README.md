@@ -1,2 +1,3 @@
-# perceptron_classifier
-Binary Classification using Perceptron Algorithm
+Perceptron Classifier. This is an implementation of the perceptron algorithm used for binary classification problems. We use the sonar data set from UCI Machine Learning repository:https://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+%28Sonar%2C+Mines+vs.+Rocks%29
+This was meant to be a beginner's project to aid in the learning of machine learning concepts. The code was written with the help of Machine Learning Mastery: https://machinelearningmastery.com/implement-perceptron-algorithm-scratch-python/ 
+Slight modifications to the code will be necessary for other data sets. In particular, we need to find a way to convert the binary classication into 0 or 1. For now, it converts 'R' to 0 and 'M' to 1, which is only usefule for the sonar data set. A more general approach will be needed. 
